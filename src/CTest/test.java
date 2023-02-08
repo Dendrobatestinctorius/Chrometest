@@ -12,7 +12,10 @@ import java.util.List;
 
 public class test {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Selenium lib\\chromedriver.exe");
+        //Windows driver key+loc
+        //System.setProperty("webdriver.chrome.driver", "C:\\Selenium lib\\chromedriver.exe");
+        //linux driver key+loc
+        System.setProperty("webdriver.chrome.driver", "/home/Dendrobates/Dokumenty/extlib/chromedriver");
         WebDriver drv = new ChromeDriver();
         String burl = "http://Google.com";
         drv.get(burl);
